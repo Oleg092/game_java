@@ -1,0 +1,39 @@
+28-Oct-2017 19:17:58.536 WARNING [main] org.apache.catalina.core.StandardContext.setPath A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+28-Oct-2017 19:17:58.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.16
+28-Oct-2017 19:17:58.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 21 2017 17:01:09 UTC
+28-Oct-2017 19:17:58.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.16.0
+28-Oct-2017 19:17:58.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Oct-2017 19:17:58.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-97-generic
+28-Oct-2017 19:17:58.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Oct-2017 19:17:58.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+28-Oct-2017 19:17:58.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-8u131-b11-2ubuntu1.16.04.3-b11
+28-Oct-2017 19:17:58.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Oct-2017 19:17:58.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/oleg/IdeaProjects/gameCowBull/localhost/apache-tomcat-8.5.16
+28-Oct-2017 19:17:58.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/oleg/IdeaProjects/gameCowBull/localhost/apache-tomcat-8.5.16
+28-Oct-2017 19:17:58.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/oleg/IdeaProjects/gameCowBull/localhost/apache-tomcat-8.5.16/conf/logging.properties
+28-Oct-2017 19:17:58.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Oct-2017 19:17:58.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Oct-2017 19:17:58.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Oct-2017 19:17:58.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/oleg/IdeaProjects/gameCowBull/localhost/apache-tomcat-8.5.16
+28-Oct-2017 19:17:58.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/oleg/IdeaProjects/gameCowBull/localhost/apache-tomcat-8.5.16
+28-Oct-2017 19:17:58.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/oleg/IdeaProjects/gameCowBull/localhost/apache-tomcat-8.5.16/temp
+28-Oct-2017 19:17:58.640 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+28-Oct-2017 19:18:00.213 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Oct-2017 19:18:00.795 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Oct-2017 19:18:00.798 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Oct-2017 19:18:00.819 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Oct-2017 19:18:00.819 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3824 ms
+28-Oct-2017 19:18:01.210 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Oct-2017 19:18:01.211 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.16
+28-Oct-2017 19:18:03.646 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Oct-2017 19:18:04.360 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [533] milliseconds.
+28-Oct-2017 19:18:04.666 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Oct-2017 19:18:04.720 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Oct-2017 19:18:04.760 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3940 ms
+28-Oct-2017 19:19:47.510 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Oct-2017 19:19:47.635 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-Oct-2017 19:19:47.686 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Oct-2017 19:19:47.839 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Oct-2017 19:19:47.841 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+28-Oct-2017 19:19:47.845 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Oct-2017 19:19:47.856 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

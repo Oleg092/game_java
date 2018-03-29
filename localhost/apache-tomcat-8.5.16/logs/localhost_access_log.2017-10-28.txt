@@ -1,0 +1,7 @@
+127.0.0.1 - - [28/Oct/2017:19:18:23 +0400] "GET / HTTP/1.1" 200 3080
+127.0.0.1 - - [28/Oct/2017:19:18:23 +0400] "GET /public/js/client.js HTTP/1.1" 200 237
+127.0.0.1 - - [28/Oct/2017:19:18:23 +0400] "GET /public/style/style.css HTTP/1.1" 200 1079
+127.0.0.1 - - [28/Oct/2017:19:18:23 +0400] "GET /public/js/jquery-2.2.1.js HTTP/1.1" 404 1095
+127.0.0.1 - - [28/Oct/2017:19:18:23 +0400] "GET /public/js/bootstrap.min.js HTTP/1.1" 404 1096
+127.0.0.1 - - [28/Oct/2017:19:18:23 +0400] "GET /public/images/Korova.jpg HTTP/1.1" 200 489485
+127.0.0.1 - - [28/Oct/2017:19:18:24 +0400] "GET /favicon.ico HTTP/1.1" 404 1081

@@ -1,0 +1,86 @@
+#inGame{
+	width: 100%
+	height: 100%;
+	position: relative;
+}
+#in{
+	position: absolute;
+	left: 10%;
+}
+#reg{
+	position: absolute;
+	right: 10%;
+	align: right;
+}
+#test{
+	position: absolute;
+	left: 110px;
+	top: 110px;
+	width: 200px;
+	background-color: #000;
+}
+#startButton{
+	position: relative;
+    height:70px; 
+    width:100%;
+
+    /*height:12pt;*/
+	font:20pt Arial, Helvetica, sans-serif;
+	
+}
+
+#data_user{
+	width: 30%;
+}
+
+#inputs{
+	position: absolute;
+	top: 65px;
+	left: 40%;
+}
+body {
+	background-image: url(../images/Korova.jpg);
+	opacity: 0.7;
+	
+}
+.lab{
+	color:  rgb(255, 255, 255);
+	opacity: 0.85;
+}
+#title{
+	text-align:  center;
+}
+#lineUserPrev{
+	/*width: 80%;*/
+	position: relative;
+	top: 10px;
+}
+#ratingPlayers{
+	position: absolute;
+	left: 70%;
+	/*top: 23%;*/
+}
+#previousAttempts{
+	position: relative;
+	width: 30%;
+}
+#game{
+	position: absolute;
+	left: 30.1%;
+	width: 39.9%;
+	height: 100%;
+	/*top: 23%;*/
+}
+#num{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	font:15pt Arial, Helvetica, sans-serif;
+}
+.gameContent{
+	position: absolute;
+	top: 13%
+}
+.post{
+	display: none;
+}
