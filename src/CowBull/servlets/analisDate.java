@@ -15,10 +15,8 @@ public class analisDate {
 
     public boolean isCorrect(String num) {//проверка присылаемого пользователем числа
         //если пользователь прислал число, заполняем его цифрами множество
-        if (Character.isDigit(num.charAt(0))) mySet.add(num.charAt(0));
-        if (Character.isDigit(num.charAt(1))) mySet.add(num.charAt(1));
-        if (Character.isDigit(num.charAt(2))) mySet.add(num.charAt(2));
-        if (Character.isDigit(num.charAt(3))) mySet.add(num.charAt(3));
+        for(int i = 0; i < 4; i++)
+            if (Character.isDigit(num.charAt(i))) mySet.add(num.charAt(i));
         //далее проверка, если пользователь прислал несколько одинаковых цифр, или символы, отправляем на страницу error
         if (mySet.size() != 4) return false;
         else return true;
@@ -51,30 +49,18 @@ public class analisDate {
             System.out.println(num.charAt(i));
         }
         System.out.println(mySet.size());
-        if (mySet.size() == 4)//если пользователь угадает, то размер мн-ва не изменится
-            k = 4;
-        if (mySet.size() == 5)//чем меньше цифр совпадет, тем больше мн-ворнпнрит04
-            k = 3;
-        if (mySet.size() == 6)
-            k = 2;
-        if (mySet.size() == 7)
-            k = 1;
+        for (int i = 0; i < 4; i++){
+            if (mySet.size() == i + 4)//если пользователь угадает, то размер мн-ва не изменится
+                k = 4 - i;//чем меньше размер мн-ва, тем больше цифр угадано
+        }
         return k;
     }
 
     public int analisB(String num, String nump){//сколько угаданных цифр стоят на своем месте
         b = 0;
-        if (num.charAt(0) == nump.charAt(0)){
-            b++;
-        }
-        if (num.charAt(1) == nump.charAt(1)){
-            b++;
-        }
-        if (num.charAt(2) == nump.charAt(2)){
-            b++;
-        }
-        if (num.charAt(3) == nump.charAt(3)){
-            b++;
+        for (int i = 0; i < 4; i++){
+            if (num.charAt(i) == nump.charAt(i))
+                b++;
         }
         return b;
     }
